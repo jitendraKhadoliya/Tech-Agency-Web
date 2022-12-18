@@ -1,31 +1,24 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Header = () => {
 
   return (
-    <>
-{/* 
-        <h1>fsdkj</h1>  
-  
-  
-       <nav>
-        <span>Jinix Services</span>
+    <nav>
+      <h1>Jinix Services</h1>
 
-        <span>
-          <link>ladslk</link>
-        </span>
-         
+        <ul>
           <li>
-          <link> Home</link>
-          
-        </li>
-    
-        
-        
-       </nav> */}
-    </>
-  
-  
+            <Link to={"/"}>Home</Link>
+            <Link to={"/#contact"}>Contact</Link>
+            <Link to={"/#about"}>About</Link>
+            <Link to={"/#brands"}>Brands</Link>
+            <Link to={"/services"}>Services</Link>
+          </li>
+        </ul>
+
+    </nav>
+
   )
 }
 

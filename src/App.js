@@ -1,8 +1,12 @@
 import {BrowserRouter as Router , Routes , Route} from 'react-router-dom';
 import Header from './components/Header';
-import Footer from './components/Footer';
+import Home from './components/Home';
+
+
 
 import './styles/app.scss';
+import './styles/header.scss';
+import './styles/home.scss';
 
 function App() {
   return (
@@ -12,10 +16,10 @@ function App() {
 
       <Routes>
 
-        <Route />
+        <Route path= "/" element = {<Home />} />
 
       </Routes>
-      <Footer />
+    
     </Router>
   );
 }
