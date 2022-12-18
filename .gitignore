@@ -27,4 +27,5 @@ here inside terminal total files that i am going to use
 npx create-react-app . 
 npm i react-router-dom 
 npm install react-icons
-npm i sass
+# npm i sass
+npm i scss
