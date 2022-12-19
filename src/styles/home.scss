@@ -75,9 +75,103 @@
         }
 }
 
+.home3{
+    height: 120vh;
+    width: 100%;
+    background-color: $myHeadingColor;
+    
+    >div{
+        width: 70%;
+        background-color: $mytextColor;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0 200px 200px 0;
+        padding: 50px;
+
+        >h3{
+            text-align: center;
+            padding: 0.5rem;
+            border-bottom: 2px solid black;
+            text-transform: uppercase;
+            color: $myLightDark;
+            width: 15rem;
+        }
+
+
+       >p{
+            margin-top: 20px;
+            letter-spacing: 1px;
+            word-spacing: 5px;
+            line-height: 170%;
+            font: italic 100 1.2rem $cursive;
+            padding: 10px 0px;
+            
+        }
+        
+    }
+}
+
+
+.home4{
+    background-color: $myLightDark;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    width: 100%;
+
+    >div{
+        background-color: $myHeadingColor;
+        width: 70%;
+        border-radius: 200px 0 0 200px;
+        height: 50vh;
+        // position: absolute;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+
+        >h3{
+            padding: -50px;
+            position: absolute;
+            border-bottom: 2px solid black;            
+            margin-bottom: 10rem;
+            // background-color: antiquewhite;
+            
+        }
+
+        >article{
+            // background-color: $mySubHeadingColor;
+            height: 7rem;
+            flex-wrap: wrap;
+            width: 50%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            position: absolute;
+
+            >div{
+
+                animation: logoup 0.7s linear infinite alternate;
+            }
+            
+        }
+    }
+}
+
 
 @keyframes imgup {
     to{
         transform: translateY(-10px);
+    }
+}
+
+@keyframes logoup {
+    to {
+        transform: translatey(-15px);
+        
     }
 }
