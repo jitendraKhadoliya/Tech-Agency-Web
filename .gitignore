@@ -29,3 +29,4 @@ npm i react-router-dom
 npm install react-icons
 # npm i sass
 npm i scss
+npm i react-router-hash-link // it will create links without refrashing the page 

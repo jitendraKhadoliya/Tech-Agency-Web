@@ -4,7 +4,7 @@ import {AiFillInstagram, AiFillYoutube , AiFillLinkedin, AiFillAmazonCircle  } f
 
 const Home = ()=>{
     return <>
-    <div className="home">
+    <div className="home" id="home"> 
             <main>
                 <h2>Jinix Servies</h2>
                 <p>solution for all your Web services</p>
@@ -22,7 +22,7 @@ const Home = ()=>{
     </div>
 
 
-    <div className="home3">
+    <div className="home3" id="about">
         <div>
             <h3>Who We Are ?</h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, vitae deserunt incidunt natus perspiciatis, consectetur inventore culpa corporis ut commodi labore harum quis aliquam reiciendis? Mollitia, sapiente culpa maxime illum rem quis, non incidunt nihil ipsa minima distinctio nulla laboriosam quos hic odio similique earum molestiae sequi architecto. Ducimus, architecto mollitia? Et recusandae obcaecati temporibus explicabo doloribus asperiores molestiae minima eos, rerum expedita tenetur optio aliquam perferendis placeat repudiandae, aperiam vel architecto corrupti corporis neque tempore aut quo libero vero. Mollitia debitis quidem labore atque. Deleniti voluptates dicta saepe totam iste. Explicabo maxime voluptatum ullam hic animi quam molestiae officiis.</p>
@@ -32,7 +32,7 @@ const Home = ()=>{
 
 
 
-    <div className="home4">
+    <div className="home4" id="brands">
         <div>
 
         <h3>Brands</h3>
