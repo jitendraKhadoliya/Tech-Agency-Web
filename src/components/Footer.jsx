@@ -1,7 +1,8 @@
 import React from "react";
 
 const Footer = () =>{
-    return <footer>
+    return <div className="footerStart">
+    <footer>
         <div>
             <h4>Jinix Services</h4>
             <p>@all right reserved</p>
@@ -17,6 +18,7 @@ const Footer = () =>{
                 </div>
         </div>
     </footer>
+    </div>
 }
 
 export default Footer;

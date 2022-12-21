@@ -48,7 +48,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: $myHeadingColor;
+        background-color: $mymatchingColor;
         margin: -200px 0;
 
         >img{
@@ -78,7 +78,7 @@
 .home3{
     height: 120vh;
     width: 100%;
-    background-color: $myHeadingColor;
+    background-color: $mymatchingColor;
     
     >div{
         width: 70%;
@@ -116,7 +116,7 @@
 
 
 .home4{
-    background-color: $myLightDark;
+    background-color: $mymatchingColor;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -124,7 +124,7 @@
     width: 100%;
 
     >div{
-        background-color: $myHeadingColor;
+        background-color: $mytextColor;
         width: 70%;
         border-radius: 200px 0 0 200px;
         height: 70vh;

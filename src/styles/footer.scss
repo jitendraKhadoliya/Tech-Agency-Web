@@ -1,0 +1,58 @@
+@import './colors.scss';
+
+.footerStart{
+    background-color: aqua;
+    margin-top: -80px;
+    >footer{
+        background-color: $myLightDark;
+        border-top: solid 2px black;
+        border-radius: 40px 40px 0 0;
+        height: 200px;
+        width: 100%;
+        padding: 2rem;
+        display: grid;
+        grid-template-columns: 4fr 1fr;
+        
+        >div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            >h4{
+                font: 700 2rem pointer $text1;
+                color: $myDarkColor;
+                margin-bottom: 5px;
+                
+            }
+            
+            >p{
+                font: 500 1.2rem $text1;
+                margin-bottom: 5px;
+            }
+            
+            >h6{
+                font: 300 2rem $text1;
+                margin: 1rem 0;
+                text-align: center;
+            }
+    
+            >div{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+    
+                >a{
+                    font: 900 1rem pointer; 
+                    color: $myDarkColor;
+                    margin: 2px 0px ;
+    
+                    &:hover{
+                        color: $myLightDark;
+                    }
+                }
+    
+            }
+    
+        }
+    }
+}
