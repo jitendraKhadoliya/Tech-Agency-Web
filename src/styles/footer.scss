@@ -1,10 +1,11 @@
 @import './colors.scss';
 
 .footerStart{
-    background-color: aqua;
-    margin-top: -80px;
+    
     >footer{
+        position: absolute;
         background-color: $myLightDark;
+        color: $mytextColor;
         border-top: solid 2px black;
         border-radius: 40px 40px 0 0;
         height: 200px;
@@ -12,6 +13,7 @@
         padding: 2rem;
         display: grid;
         grid-template-columns: 4fr 1fr;
+        margin-top: -40px;
         
         >div{
             display: flex;

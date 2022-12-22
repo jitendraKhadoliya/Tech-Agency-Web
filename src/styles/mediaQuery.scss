@@ -1,0 +1,189 @@
+@import './colors.scss';
+
+@media screen and (max-width : 1150px) {
+
+    .home4 > div > article > div {
+        height: 130px;
+        width: 130px;
+
+        >svg{
+            font-size: 3rem;
+        }
+    }
+}
+
+@media screen and (max-width : 940px){
+    .home > main  > h2{
+        font : 400 5rem "Roboto";
+    }
+
+    .home3 > div > p {
+        font:  italic 900 0.8rem $cursive;
+    }
+
+    .home4 > div > article > div {
+        height: 110px;
+        width: 110px;
+
+        >svg{
+            font-size: 2rem;
+        }
+
+        >p{
+            border-bottom: none;
+        }
+    }
+}
+
+@media screen  and (max-width : 800px){
+
+    .home > main  > h2{
+        font : 400 4.5rem "Roboto";
+    }
+
+    
+    .home2 > img {
+        width: 50%;
+    }
+    
+    .home4 > div > article > div {
+        height: 110px;
+        width: 110px;
+        margin: 10px;
+
+        >svg{
+            font-size: 1.5rem;
+        }
+
+        >p{
+            border-bottom: none;
+            font-size: 1rem;
+        }
+    }
+
+    .home4 > div > h3{
+        margin-bottom: 20rem;
+    }
+
+    .footerStart > footer > div > h6 {
+        font: 300 1.5rem "roboto";
+    }
+    
+}
+@media screen and (max-width :720px){
+
+    .home > main  > h2{
+        font : 400 4rem "Roboto";
+    }
+
+    
+    .home2 > img {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width :640px){
+    
+    nav{ 
+
+        padding: 0.7rem;
+    > ul > li{
+        margin-right: auto;
+    }
+}
+
+    .home > main {
+
+        > h2{
+            font : 700 3.5rem "Roboto";
+        }
+        >p{
+            font: 700 0.8rem "Roboto";
+        };
+     
+    }
+
+    .home2 > img {
+        width: 40%;
+    }
+
+    .home4 > div > article {
+        height: auto;
+    }
+
+    
+}
+
+@media screen and (max-width : 580px){
+
+    nav {
+        padding: 0.6rem;
+
+        >h1{
+            max-width: 20%;
+        } 
+    
+         >ul > li{
+            margin-right: auto;
+
+            >a{
+                 margin-right: 1rem;
+                font-weight: 900;        
+            }
+        }
+    }
+
+    .home2 > img {
+        width: 40%;
+    }    
+
+    .home3 > div {
+        width: 70%;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width : 576px){
+    nav{
+        padding: 0.5rem;
+    
+    > ul {
+        width: auto;
+
+        >li > a {
+            margin-right: 1rem;
+            font-weight: 900;
+        }
+    }
+
+}
+
+    .home > main > h2 {
+         font: 700 3rem "Roboto";
+    }
+
+    .home2 > div{
+        padding: 2rem;
+        width: 50%;
+    }
+
+    .home3 > div{
+    width: 80%;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    }
+}
+
+
+
+@media screen and (max-width : 470px){
+    nav{
+        padding: 0%;
+        >h1{
+            text-align: center;
+            padding: 2px;
+        }
+    }
+}
