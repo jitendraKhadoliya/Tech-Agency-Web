@@ -1,3 +1,9 @@
+I have developed a tech agency web application using modern web technologies such as React, React-DOM, React-Icon, React-Icons, React-Responsive-Carousel, React-Router-DOM, React-Router-Hash-Link, Sass, and SCSS. The application consists of a home page showcasing the services we offer, a contact page to reach out to us, and an about page elaborating on our services in detail.
+The brand section of the web app features links to our social media platforms, while the services page lists the comprehensive range of services we offer including full-stack development, support, big community, and peer-to-peer services.
+In the footer section of the web app, links to our GitHub, Instagram, and LinkedIn profiles are provided. Overall, the web app delivers a seamless user experience and provides a platform for our tech agency to showcase our services and engage with potential clients.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
