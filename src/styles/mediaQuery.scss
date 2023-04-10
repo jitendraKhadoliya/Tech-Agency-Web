@@ -1,116 +1,108 @@
-@import './colors.scss';
+@import "./colors.scss";
 
-@media screen and (max-width : 1150px) {
+@media screen and (max-width: 1150px) {
+  .home4 > div > article > div {
+    height: 130px;
+    width: 130px;
 
-    .home4 > div > article > div {
-        height: 130px;
-        width: 130px;
-
-        >svg{
-            font-size: 3rem;
-        }
+    > svg {
+      font-size: 3rem;
     }
+  }
 }
 
-@media screen and (max-width : 940px){
-    .home > main  > h2{
-        font : 400 5rem "Roboto";
+@media screen and (max-width: 940px) {
+  .home > main > h2 {
+    font: 400 5rem "Roboto";
+  }
+
+  .home3 > div > p {
+    font: italic 900 0.8rem $cursive;
+  }
+
+  .home4 > div > article > div {
+    height: 110px;
+    width: 110px;
+
+    > svg {
+      font-size: 2rem;
     }
 
-    .home3 > div > p {
-        font:  italic 900 0.8rem $cursive;
+    > p {
+      border-bottom: none;
     }
-
-    .home4 > div > article > div {
-        height: 110px;
-        width: 110px;
-
-        >svg{
-            font-size: 2rem;
-        }
-
-        >p{
-            border-bottom: none;
-        }
-    }
+  }
 }
 
-@media screen  and (max-width : 800px){
+@media screen and (max-width: 800px) {
+  .home > main > h2 {
+    font: 400 4.5rem "Roboto";
+  }
 
-    .home > main  > h2{
-        font : 400 4.5rem "Roboto";
+  .home2 > img {
+    width: 50%;
+  }
+
+  .home4 > div > article > div {
+    height: 110px;
+    width: 110px;
+    margin: 10px;
+
+    > svg {
+      font-size: 1.5rem;
     }
 
-    
-    .home2 > img {
-        width: 50%;
+    > p {
+      border-bottom: none;
+      font-size: 1rem;
     }
-    
-    .home4 > div > article > div {
-        height: 110px;
-        width: 110px;
-        margin: 10px;
+  }
 
-        >svg{
-            font-size: 1.5rem;
-        }
+  .home4 > div > h3 {
+    margin-bottom: 20rem;
+  }
 
-        >p{
-            border-bottom: none;
-            font-size: 1rem;
-        }
-    }
-
-    .home4 > div > h3{
-        margin-bottom: 20rem;
-    }
-
-    .footerStart > footer > div > h6 {
-        font: 300 1.5rem "roboto";
-    }
-    
+  .footerStart > footer > div > h6 {
+    font: 300 1.5rem "roboto";
+  }
 }
-@media screen and (max-width :720px){
+@media screen and (max-width: 720px) {
+  .home > main > h2 {
+    font: 400 4rem "Roboto";
+  }
 
-    .home > main  > h2{
-        font : 400 4rem "Roboto";
-    }
+  .home2 > img {
+    width: 45%;
+  }
 
-    
-    .home2 > img {
-        width: 45%;
-    }
-
-    .contact{
+  .contact {
+    width: 100%;
+    height: 120vh;
+    > main {
+      width: 100%;
+      height: 110vh;
+      border-radius: unset;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      > h1 {
+        text-align: center;
         width: 100%;
-        height: 120vh;
-        >main{
-                width: 100%;
-                height: 110vh;
-                border-radius: unset;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-            >h1{
-                text-align: center;
-                width: 100%;
-                margin-bottom: 10px;
-            }  
-            >form{
-                width: 100%;
-                >div{
-                    width: 90%;
-                    >label{
-                        margin:  0 4rem;
-                        align-self: flex-start;
-                    }
-                }
-            } 
+        margin-bottom: 10px;
+      }
+      > form {
+        width: 100%;
+        > div {
+          width: 90%;
+          > label {
+            margin: 0 4rem;
+            align-self: flex-start;
+          }
         }
-        
-
-        }
+      }
     }
+  }
+}
 //      > main {
 //         width: 95%;
 //         height: 50rem;
@@ -119,169 +111,167 @@
 //         border-radius: 0 250px 250px 0;
 //         >h1{
 //             text-align: center;
-            
+
 //         }
 // }
 // }
 
-@media screen and (max-width :640px){
-    
-    nav{ 
-
-        padding: 0.7rem;
-    > ul > li{
-        margin-right: auto;
+@media screen and (max-width: 640px) {
+  nav {
+    padding: 0.7rem;
+    > ul > li {
+      margin-right: auto;
     }
+  }
+
+  .home > main {
+    > h2 {
+      font: 700 3.5rem "Roboto";
+    }
+    > p {
+      font: 700 0.8rem "Roboto";
+    }
+  }
+
+  .home2 > img {
+    width: 40%;
+  }
+
+  .home4 > div > article {
+    height: auto;
+  }
 }
 
-    .home > main {
+@media screen and (max-width: 580px) {
+  nav {
+    padding: 0.6rem;
 
-        > h2{
-            font : 700 3.5rem "Roboto";
-        }
-        >p{
-            font: 700 0.8rem "Roboto";
-        };
-     
+    > h1 {
+      max-width: 20%;
     }
 
-    .home2 > img {
-        width: 40%;
-    }
+    > ul > li {
+      margin-right: auto;
 
-    .home4 > div > article {
-        height: auto;
+      > a {
+        margin-right: 1rem;
+        font-weight: 900;
+      }
     }
+  }
 
-    
+  .home2 > img {
+    width: 40%;
+  }
+
+  .home3 > div {
+    width: 70%;
+    padding: 15px;
+  }
 }
 
-@media screen and (max-width : 580px){
+@media screen and (max-width: 576px) {
+  nav {
+    padding: 0.5rem;
 
-    nav {
-        padding: 0.6rem;
-
-        >h1{
-            max-width: 20%;
-        } 
-    
-         >ul > li{
-            margin-right: auto;
-
-            >a{
-                 margin-right: 1rem;
-                font-weight: 900;        
-            }
-        }
-    }
-
-    .home2 > img {
-        width: 40%;
-    }    
-
-    .home3 > div {
-        width: 70%;
-        padding: 15px;
-    }
-}
-
-@media screen and (max-width : 576px){
-    nav{
-        padding: 0.5rem;
-    
     > ul {
-        width: auto;
+      width: auto;
 
-        >li > a {
-            margin-right: 1rem;
-            font-weight: 900;
-        }
+      > li > a {
+        margin-right: 1rem;
+        font-weight: 900;
+      }
     }
+  }
 
-}
+  .home > main > h2 {
+    font: 700 3rem "Roboto";
+  }
 
-    .home > main > h2 {
-         font: 700 3rem "Roboto";
-    }
+  .home2 > div {
+    padding: 2rem;
+    width: 50%;
+  }
 
-    .home2 > div{
-        padding: 2rem;
-        width: 50%;
-    }
-
-    .home3 > div{
+  .home3 > div {
     width: 80%;
     padding: 15px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    }
+  }
 }
 
-
-
-@media screen and (max-width : 470px){
-    nav{
-        padding: 0%;
-        >h1{
-            text-align: center;
-            padding: 1px;
-        }
-        > ul > li > a {
-            margin-right: 0.5rem;
-        }
+@media screen and (max-width: 470px) {
+  nav {
+    padding: 0%;
+    > h1 {
+      text-align: center;
+      padding: 1px;
     }
+    > ul > li > a {
+      margin-right: 0.5rem;
+    }
+  }
 
-    .home::before{
-        border-radius: 0 0 100px 100px;
-    }
+  .home::before {
+    border-radius: 0 0 100px 100px;
+  }
 
-    .home3 > div {
-        width: 95%;
-        padding: 10px;
-    }
-    .home4> div{
-        width: 90%;
-    }
-    .footerStart > footer {
-        grid-template-columns: 2fr 1fr;
-}
+  .home3 > div {
+    width: 95%;
+    padding: 10px;
+  }
+  .home4 > div {
+    width: 90%;
+  }
+  .footerStart > footer {
+    grid-template-columns: 2fr 1fr;
+  }
 }
 
-
-@media screen and (max-width : 435px){
-    nav > h1 {
-        font-weight: bolder;
-        font-size: 14px;
-        word-spacing: -1px;
-        color: $myDarkColor;
-        text-align: start;
+@media screen and (max-width: 435px) {
+  nav {
+    height: 70px;
+    > h1 {
+      font-weight: bolder;
+      font-size: 14px;
+      word-spacing: -1px;
+      color: $myHeadingColor;
+      text-align: start;
     }
-
-    .home::before{
-        border-radius: auto;
-        border-radius: inherit;
+    > ul > li {
+      font-size: medium;
+      font-weight: normal;
+      > a {
+        color: $myHeadingColor;
+      }
     }
-    h2{
-        font: 700 2.5rem "roboto";
+  }
+
+  .home::before {
+    border-radius: auto;
+    border-radius: inherit;
+  }
+  h2 {
+    font: 700 2.5rem "roboto";
+  }
+
+  .home2 > div {
+    padding: 0%;
+
+    > p {
+      word-spacing: 0px;
+      letter-spacing: 0px;
     }
+  }
+  .home4 > div {
+    height: 150vh;
+    width: 50%;
+    border-radius: 200px 0 0 200px;
 
-    .home2 > div{
-        padding: 0%;
-
-        >p{
-            word-spacing: 0px;
-            letter-spacing: 0px;
-        }
+    > h3 {
+      margin-bottom: 40rem;
     }
-    .home4 > div {
-        height: 150vh;
-        width: 50%;
-        border-radius: 200px 0 0 200px;
-
-        >h3{
-            margin-bottom: 40rem;
-        }
-    }
-
+  }
 }
